@@ -1,0 +1,41 @@
+.section-work-process {
+    padding-top: 0px;
+}
+
+.list-work-process {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.subject,
+.subject-team {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.work-container {
+    position: relative;
+}
+
+.work-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

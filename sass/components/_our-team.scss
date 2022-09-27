@@ -1,0 +1,68 @@
+.list-team {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.picture-team {
+    margin-bottom: 30px;
+}
+
+.section-team {
+    background-color: var(--background-color);
+}
+
+.item-team {
+    background-color: var(--primary-backg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title-team {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.subtitle-team {
+    margin-bottom: 16px;
+
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.icon-team-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.link-team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-text-color);
+    background-color: var(--primary-backg-color);
+
+    transition: color var(--animation),
+        background-color var(--animation);
+}
+
+.socials-icon {
+    fill: currentColor;
+}
+
+.link-team-icon:hover,
+.link-team-icon:focus {
+    color: var(--white-text-color);
+    background-color: var(--blue-text-color);
+}

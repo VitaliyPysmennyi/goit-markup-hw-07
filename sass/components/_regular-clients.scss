@@ -1,0 +1,36 @@
+.title-clients {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icon-clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.link-clients-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: var(--icon-text-color);
+    background-color: var(--primary-backg-color);
+    transition: color var(--animation);
+}
+
+.logo-icon {
+    fill: currentColor;
+}
+
+.link-clients-icon:hover,
+.link-clients-icon:focus {
+    color: var(--button-backg-color);
+}
