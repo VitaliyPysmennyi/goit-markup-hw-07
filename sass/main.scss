@@ -7,6 +7,7 @@
 @import "./components/reset";
 @import "./components/container";
 
+// header
 @import "./components/header";
 
 // main-content index.html
@@ -18,11 +19,16 @@
 @import "./components/regular-clients";
 
 // main-content portfolio.html
-// @import "";
-// @import "";
-// @import "";
-// @import "";
+@import "./components/portfolio";
 
+// Footer
+@import "./components/footer";
+@import "./components/socials-icon";
+@import "./components/subscribe";
 
+// Backdrop, modal
+@import "./components/backdrop";
+@import "./components/modal";
 
-// @import "";
+// Form
+@import "./components/form";
