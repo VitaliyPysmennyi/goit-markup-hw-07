@@ -229,28 +229,24 @@ img {
   letter-spacing: 0.06em;
 }
 
-.features-list {
+.features__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
-
-.title-features {
+.features__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-
-.subtitle-features {
+.features__subtitle {
   color: var(--secondary-text-color);
-  font-style: normal;
   line-height: 1.71;
 }
-
-.icon-features {
+.features__containers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

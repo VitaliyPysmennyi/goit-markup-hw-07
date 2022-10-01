@@ -1,9 +1,10 @@
-.features-list {
+.features {
+
+&__list {
     display: flex;
     gap: 30px;
 }
-
-.title-features {
+&__title {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -11,14 +12,11 @@
     line-height: 1.14;
     text-transform: uppercase;
 }
-
-.subtitle-features {
+&__subtitle {
     color: var(--secondary-text-color);
-    font-style: normal;
     line-height: 1.71;
 }
-
-.icon-features {
+&__containers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,4 +25,5 @@
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
+}
 }
