@@ -72,11 +72,20 @@ img {
   margin-right: auto;
 }
 
+.subject,
+.subject-team,
+.clients-section__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
 }
-
-.header-container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,6 +102,21 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 93px;
+}
+.main-nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--blue-text-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.main-nav__logo {
+  color: var(--logo-text-color);
 }
 
 .nav-list {
@@ -111,20 +135,6 @@ img {
   display: flex;
   gap: 50px;
   margin-left: auto;
-}
-
-.nav-link {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  color: var(--blue-text-color);
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.nav-logo {
-  color: var(--logo-text-color);
 }
 
 .link-blue {
@@ -263,11 +273,10 @@ img {
   margin-bottom: 30px;
 }
 
-.section-work-process {
+.work-process {
   padding-top: 0px;
 }
-
-.list-work-process {
+.work-process__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -277,20 +286,10 @@ img {
           justify-content: space-between;
 }
 
-.subject,
-.subject-team {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
 .work-container {
   position: relative;
 }
-
-.work-text {
+.work-container__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -312,7 +311,10 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.list-team {
+.section-team {
+  background-color: var(--background-color);
+}
+.section-team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,31 +323,23 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.picture-team {
+.section-team__picture {
   margin-bottom: 30px;
 }
-
-.section-team {
-  background-color: var(--background-color);
-}
-
-.item-team {
+.section-team__item {
   background-color: var(--primary-backg-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
-.title-team {
+.section-team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-
-.subtitle-team {
+.section-team__subtitle {
   margin-bottom: 16px;
   color: var(--secondary-text-color);
   font-size: 16px;
@@ -353,7 +347,7 @@ img {
   text-align: center;
 }
 
-.icon-team-list {
+.socials-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,8 +357,7 @@ img {
   gap: 10px;
   margin-bottom: 30px;
 }
-
-.link-team-icon {
+.socials-icon__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,27 +375,15 @@ img {
   -webkit-transition: color var(--animation), background-color var(--animation);
   transition: color var(--animation), background-color var(--animation);
 }
-
-.socials-icon {
+.socials-icon__svg {
   fill: currentColor;
 }
-
-.link-team-icon:hover,
-.link-team-icon:focus {
+.socials-icon__link:hover, .socials-icon__link:focus {
   color: var(--white-text-color);
   background-color: var(--blue-text-color);
 }
 
-.title-clients {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.icon-clients-list {
+.clients-section__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,8 +392,7 @@ img {
           justify-content: center;
   gap: 30px;
 }
-
-.link-clients-icon {
+.clients-section__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,13 +411,10 @@ img {
   -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
-
-.logo-icon {
+.clients-section__icon {
   fill: currentColor;
 }
-
-.link-clients-icon:hover,
-.link-clients-icon:focus {
+.clients-section__link:hover, .clients-section__link:focus {
   color: var(--button-backg-color);
 }
 
@@ -577,6 +554,9 @@ img {
 }
 
 .footer-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: var(--blue-text-color);
   font-family: "Raleway";
   font-weight: 700;

@@ -1,19 +1,12 @@
-.title-clients {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    margin-bottom: 50px;
-}
+.clients-section {
 
-.icon-clients-list {
+&__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.link-clients-icon {
+&__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,11 +19,12 @@
     transition: color var(--animation);
 }
 
-.logo-icon {
+&__icon {
     fill: currentColor;
 }
 
-.link-clients-icon:hover,
-.link-clients-icon:focus {
+&__link:hover,
+&__link:focus {
     color: var(--button-backg-color);
+}
 }
